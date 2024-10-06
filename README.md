@@ -44,3 +44,10 @@
 ## 7. Considerações finais:
 - A previsão final varia com o valor de `k`, já que com mais vizinhos sendo considerados, há uma maior diversidade de instâncias influenciando a decisão.
 - Para `k=1`, o modelo pode ser muito sensível a outliers (instâncias fora do padrão), enquanto valores maiores de `k` tendem a suavizar a previsão, considerando um grupo maior de vizinhos.
+- O retorno do algoritmo de forma transcrita foi:
+
+    A proteína prevista para `K=1` é: Frango
+
+    A proteína prevista para `K=3` é: Frango
+
+    A proteína prevista para `K=5` é: Frango
