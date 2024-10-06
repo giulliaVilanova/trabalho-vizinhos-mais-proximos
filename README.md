@@ -33,13 +33,13 @@
 - Por exemplo, se `k=3` e entre os 3 vizinhos mais próximos houver 2 instâncias de "Frango" e 1 de "Peru", o KNN preverá "Frango", já que é a classe mais frequente.
 
 ## 6. Resultados para diferentes valores de K:
-- No seu código, o processo foi repetido para `k=1`, `k=2` e `k=3`. Cada vez que o valor de `k` muda, o número de vizinhos considerados pelo algoritmo aumenta, o que pode influenciar o resultado da previsão.
+- No meu código, o processo foi repetido para `k=1`, `k=3` e `k=5`. Cada vez que o valor de `k` muda, o número de vizinhos considerados pelo algoritmo aumenta, o que pode influenciar o resultado da previsão.
 
 - **k=1**: O algoritmo leva em consideração apenas o vizinho mais próximo. A previsão é baseada no único dado mais semelhante ao exemplo com `'?'`.
 
-- **k=2**: O KNN observa os dois vizinhos mais próximos e escolhe a classe predominante. Caso haja um empate (1 vizinho é "Frango" e o outro é "Peru"), o modelo pode desempatar por meio da distância (quem está mais próximo).
+- **k=3**: O KNN observa os três vizinhos mais próximos e escolhe a classe predominante.
 
-- **k=3**: O algoritmo considera três vizinhos, e a previsão será a classe com a maioria (2 ou mais) entre esses três vizinhos.
+- **k=5**: O algoritmo considera cinco vizinhos, e a previsão será a classe com a maioria entre esses cinco vizinhos.
 
 ## 7. Considerações finais:
 - A previsão final varia com o valor de `k`, já que com mais vizinhos sendo considerados, há uma maior diversidade de instâncias influenciando a decisão.
